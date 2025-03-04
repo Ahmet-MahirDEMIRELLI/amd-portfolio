@@ -15,7 +15,7 @@
     margin-left: 5%;
 }
 
-img{
+.main-page-container .image-container img{
     width: 100%;
     border-radius: 50%;
 }

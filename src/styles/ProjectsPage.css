@@ -8,7 +8,7 @@
     background-color: #1e1d1d;
 }
 
-.two-card-row{
+.projects-page-container .two-card-row{
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -22,10 +22,9 @@
     margin-top: 3%;
 }
 
-.card{
+.projects-page-container .two-card-row .card{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(225, 31, 32, 1);
@@ -36,8 +35,9 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card img{
-    margin: 10px;
+.projects-page-container .two-card-row .card img{
+    width: 100px;
+    margin: 5px;
     border-radius: 50%;
 }
 
@@ -46,6 +46,7 @@
     flex-direction: column;
     align-items: start;
     padding: 15px;
+    margin-left: 30px;
     color: #f5f5f5;
 }
 
