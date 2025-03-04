@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    min-height: 100%;
+    min-height: calc(81vh - 3px);
     height: fit-content;
+    width: 100%;
     background-color: #1e1d1d;
 }
 
@@ -23,13 +23,12 @@
 
 .certificates-page-container .two-card-row .card{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(225, 31, 32, 1);
-    width: 40%;
-    margin-bottom: 20px;
+    width: 30%;
+    margin: 20px 50px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -69,4 +68,19 @@ p{
 
 a{
     color: #00ff93;
+}
+
+@media (max-width: 768px) {
+    .certificates-page-container .two-card-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificates-page-container .two-card-row .card {
+        width: 60%;
+    }
+
+    .certificates-page-container .two-card-row .card .explanation {
+        align-items: start;
+    }
 }

@@ -15,5 +15,6 @@
 
 .content-container{
   margin-top: 6px;
-  height: calc(81vh - 3px);
+  height: fit-content;
+  min-height: calc(81vh - 3px);
 }
