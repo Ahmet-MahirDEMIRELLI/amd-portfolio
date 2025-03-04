@@ -1,11 +1,12 @@
 import mainImage from '../assets/amd.png'
 import '../styles/Navbar.css'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 
 function Navbar() {
   const location = useLocation();
+  const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const getActiveClass = (path: string) => {
@@ -16,11 +17,16 @@ function Navbar() {
     setMenuOpen(!menuOpen);
   }
 
+  const goToHome = () => {
+    navigate('/');
+    setMenuOpen(false);
+  }
+
   return (
     <>
       <div className="navbar-page-container">
         <div className="navbar">
-          <div className="image">
+          <div className="image" onClick={goToHome}>
             <img src={mainImage} alt="Logo" height="50" width="50" />
           </div>
 
