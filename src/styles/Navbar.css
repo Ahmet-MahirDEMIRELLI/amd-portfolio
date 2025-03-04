@@ -37,6 +37,6 @@
     cursor: pointer;
 }
 
-.underlined{
+.titles a.active h4 {
     text-decoration: underline;
 }

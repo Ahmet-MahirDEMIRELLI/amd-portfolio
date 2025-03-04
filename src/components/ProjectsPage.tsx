@@ -8,7 +8,7 @@ function ProjectsPage() {
         <div className="projects-page-container">
             <div className="two-card-row first-row">
                 <div className="card">
-                    <img src={ytuChessRobot} alt="Logo" height="200" width="200" />
+                    <img src={ytuChessRobot} alt="Logo"/>
                     <div className="explanation">
                         <div className="title">
                             <h3>YTÜ Satranç Robotu</h3>
@@ -18,7 +18,7 @@ function ProjectsPage() {
                     </div>          
                 </div>
                 <div className="card">
-                    <img src={demirelliRentCar} alt="Logo" height="170" width="170" />
+                    <img src={demirelliRentCar} alt="Logo"/>
                     <div className="explanation">
                         <div className="title">
                             <h3>Demirelli Rent Car</h3>
