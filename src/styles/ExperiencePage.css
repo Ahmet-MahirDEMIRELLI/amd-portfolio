@@ -95,18 +95,18 @@ p{
         margin-left: 0;
     }
 
-    .experience-page-container .two-card-row {
+    .experience-page-container .work .two-card-row, .experience-page-container .club .two-card-row {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
 
-    .experience-page-container .two-card-row .card {
+    .experience-page-container .work .two-card-row .card, .experience-page-container .club .two-card-row .card {
         width: 70%;
         height: auto;
     }
 
-    .experience-page-container .two-card-row .card .explanation {
+    .experience-page-container .work .two-card-row .card .explanation,  .experience-page-container .club .two-card-row .card .explanation {
         align-items: start;
         text-align: center;
     }
