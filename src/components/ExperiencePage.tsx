@@ -12,7 +12,7 @@ function ExperiencePage() {
                 <div className="two-card-row">
                     <div className="card">
                         <h3 className="title">ATP Digital</h3>
-                        <img src={atp} alt="Logo" height="50" width="100" />
+                        <img src={atp} alt="ATP Logo" height={50}/>
                         <div className="explanation">
                             <p>* Ekip: Yazılım Geliştirme Ekibi</p>  
                             <p>* Rol: Stajyer</p>  
@@ -27,7 +27,7 @@ function ExperiencePage() {
                 <div className="two-card-row">
                     <div className="card">
                         <h3 className="title">SKYSEC</h3>
-                        <img src={skysec} alt="Logo" height="100" width="100" />
+                        <img src={skysec} alt="SKYSEC Logo" height={100}/>
                         <div className="explanation">
                             <p>* SKYLAB kulübünün siber güvenlik ekibi</p>  
                             <p>* Rol: Ekip Üyesi</p>  
@@ -36,7 +36,7 @@ function ExperiencePage() {
                     </div>
                     <div className="card">
                         <h3 className="title">WEBLAB</h3>
-                        <img src={weblab} alt="Logo" height="100" width="100" />
+                        <img src={weblab} alt="WEBLAB Logo" height={100}/>
                         <div className="explanation">
                             <p>* SKYLAB kulübünün web ekibi</p>  
                             <p>* Rol: Ekip Üyesi</p>  
