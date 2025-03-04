@@ -6,6 +6,7 @@ import MainPage from './components/MainPage.tsx'
 import ExperiencePage from './components/ExperiencePage.tsx'
 import ContactPage from './components/ContactPage.tsx'
 import CertificatesPage from './components/CertificatesPage.tsx'
+import ProjectsPage from './components/ProjectsPage.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <HashRouter>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="experience" element={<ExperiencePage />} />
         <Route path="contact-info" element={<ContactPage />} />
         <Route path="certificates" element={<CertificatesPage />} />
+        <Route path="projects" element={<ProjectsPage />} />
       </Route>
     </Routes>
   </HashRouter>,

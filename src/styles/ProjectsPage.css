@@ -1,4 +1,4 @@
-.certificates-page-container{
+.projects-page-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,20 +8,21 @@
     background-color: #1e1d1d;
 }
 
-.certificates-page-container .two-card-row{
+.two-card-row{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: start;
     width: 100%;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .first-row{
     margin-top: 3%;
 }
 
-.certificates-page-container .two-card-row .card{
+.card{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -35,12 +36,12 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.certificates-page-container .two-card-row .card img{
+.card img{
     margin: 10px;
     border-radius: 50%;
 }
 
-.certificates-page-container .two-card-row .card .explanation{
+.explanation{
     display: flex;
     flex-direction: column;
     align-items: start;
