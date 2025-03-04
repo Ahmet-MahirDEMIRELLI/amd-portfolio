@@ -6,7 +6,7 @@ import weblab from '../assets/weblab.png'
 function ExperiencePage() {
   return (
     <>
-        <div className="main-container">
+        <div className="experience-page-container">
             <div className="work">
                 <h1 className="experience-title">Deneyim</h1>
                 <div className="two-card-row">

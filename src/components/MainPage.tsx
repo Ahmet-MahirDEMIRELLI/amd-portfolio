@@ -4,7 +4,7 @@ import MainPageImage from '../assets/main-page-img.png'
 function MainPage() {
   return (
     <>
-      <div className="main-main-container">
+      <div className="main-page-container">
         <div className='image-container'>
           <img src={MainPageImage} alt="Logo"/>
         </div>
