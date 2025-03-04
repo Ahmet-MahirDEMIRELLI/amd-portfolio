@@ -1,0 +1,42 @@
+.navbar-main-container{
+    width: 100%;
+    background-color: #1e1d1d;
+    border-bottom: 3px solid purple;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.image{
+    width: 50px;
+}
+
+.image img{
+    margin-top: 6px;
+    margin-bottom: 5px;
+    border: 2px solid red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+}
+
+.titles h4{
+    margin-right: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.underlined{
+    text-decoration: underline;
+}
