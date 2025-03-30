@@ -33,7 +33,7 @@ function ProjectsPage() {
             <div className="two-card-row">
                 <div className="card">
                     <div className="title">
-                        <h3>Etüt ve Kurs Merkezi</h3>
+                        <h3>Etüt ve Koçluk Merkezi</h3>
                     </div>
                     <img src={ekm} alt="Logo"/>
                     <div className="explanation">
