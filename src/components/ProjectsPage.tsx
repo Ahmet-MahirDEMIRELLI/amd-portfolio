@@ -1,6 +1,7 @@
 import '../styles/ProjectsPage.css'
 import ytuChessRobot from '../assets/ytu-chess-robot.png'
 import demirelliRentCar from '../assets/demirelli-rent-car.png'
+import ekm from '../assets/ekm.png'
 
 function ProjectsPage() {
   return (
@@ -26,6 +27,19 @@ function ProjectsPage() {
                         <p>* Staj projem olarak tamamladım.</p>
                         <p>* Elden teslim araç kiralama işlemi yapan bir işletmenin işini görecek bir sistem kodladım.</p>
                         <p>* Kullanılan Teknolojiler: Angular, .Net ve MsSQL</p>
+                    </div>          
+                </div>
+            </div>
+            <div className="two-card-row">
+                <div className="card">
+                    <div className="title">
+                        <h3>Etüt ve Kurs Merkezi</h3>
+                    </div>
+                    <img src={ekm} alt="Logo"/>
+                    <div className="explanation">
+                        <p>* Frontend ekibinde rol alıyorum.</p>
+                        <p>* Projemizi Çevik Yaklaşımlarla Yazılım Geliştirme dersi kapsamında hocamız <a href="https://www.linkedin.com/in/seyhan-amasyali/" target="_blank">Seyhan Amasyalı</a> ile yürütüyoruz.</p>
+                        <p>* Kodları incelemek için <a href="https://github.com/orgs/Agile-Victims/repositories" target="_blank">YTÜ Satranç Robotu</a>'na göz atabilirsiniz</p>
                     </div>          
                 </div>
             </div>
