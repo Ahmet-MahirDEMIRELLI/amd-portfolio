@@ -11,7 +11,7 @@
 }
 
 .image-container{
-    width: 30%;
+    width: 25%;
     height: 70%;
     margin-left: 5%;
 }
@@ -21,7 +21,7 @@
     border-radius: 50%;
 }
 
-.message{
+.messages-container{
     margin-left: 5%;
     width: 60%;
 }
@@ -29,6 +29,7 @@
 h1, h3{
     color: white;
     text-align: left;
+    margin-top: 0;
 }
 
 h1{
