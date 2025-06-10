@@ -60,7 +60,7 @@ function ProjectsPage() {
                     <div className="explanation">
                         <p>* Flutter ve .Net kullanarak geliştiriyorum.</p>
                         <p>* Projenin amacı kişilerin bilgi güvenliğini sağlayacak, asimetrik şifreleme yöntemleri kullanarak blockchain mantığı ile çalışan bir mesajlaşma uygulaması yapmak.</p>
-                        <p>* Kodları incelemek için <a href="https://github.com/Ahmet-MahirDEMIRELLI/messaging_app" target="_blank">Frontend</a> ve <a href="https://github.com/Ahmet-MahirDEMIRELLI/MessagingApp.Server" target="_blank">Backend</a> repositroy'lerine göz atabilirsiniz.</p>
+                        <p>* Kodları incelemek için <a href="https://github.com/Ahmet-MahirDEMIRELLI/messaging_app" target="_blank">Frontend</a> ve <a href="https://github.com/Ahmet-MahirDEMIRELLI/MessagingApp.Server" target="_blank">Backend</a> repository'lerine göz atabilirsiniz.</p>
                     </div>          
                 </div>         
             </div>
