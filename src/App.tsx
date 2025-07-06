@@ -1,25 +1,47 @@
-
+import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import { Outlet } from 'react-router-dom'
 
 function App() {
+  const [isEnglish, setIsEnglish] = useState(false)
+
+  const toggleLanguage = () => {
+    setIsEnglish(!isEnglish)
+  }
 
   return (
-    <>
-      <div className='navbar-container'>
-        <Navbar/>
-      </div>
+    <div className="centered">
+      <div style={{ textAlign: 'center' }}>
+        <h1>
+          {isEnglish ? (
+            <>
+            We moved to{' '}
+              <a
+                href="https://ahmetmahirdemirelli.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ahmetmahirdemirelli.com
+              </a>
+            </>
+          ) : (
+            <>
+              <a
+                href="https://ahmetmahirdemirelli.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ahmetmahirdemirelli.com
+              </a>{' '}
+              a taşındık!
+            </>
+          )}
+        </h1>
 
-      <div className='content-container'>
-        <Outlet />
+        <button className="toggle-button" onClick={toggleLanguage}>
+          {isEnglish ? 'Türkçe Göster' : 'Show English'}
+        </button>
       </div>
-      
-      <div className='footer-container'>
-        <Footer/>
-      </div>
-    </>
+    </div>
   )
 }
 
